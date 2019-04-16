@@ -1,0 +1,9 @@
+# These routes are for core purposes and ensure the demo site
+# can run, remove at your leasure, they can serve as an example.
+tv_core:
+  tv:
+    index: 
+      response_type: "html"
+      methods: ["GET"]
+      uri: "/core-index"
+      priority: -1

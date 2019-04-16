@@ -1,0 +1,17 @@
+debug: true
+env: "dev"
+debugLevel: 'debug' #warning, info, error, debug
+cookieText: 'This site uses cookies, would you accept?'
+forceSSL: true
+mysql: 
+    user: "root"
+    password: "SOME_PASSWORD"
+    host: "localhost"
+    database: "atom"
+ldap: 
+    server: "127.0.0.1"
+    base_dn: "ou=TV,dc=example,dc=com"
+    user_dn: "ou=Users"
+    group_dn: "ou=Groups"
+    user_rdn: "uid"
+    type: "OpenLDAP"

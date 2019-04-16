@@ -1,0 +1,40 @@
+# main Config
+env: 'dev' #This is the a value that has to be set here, since it determines the param file needed
+debug: %debug%
+debugLevel: %debugLevel% #warning, info, error, debug
+cookieText: %cookieText%
+forceSSL: %forceSSL%
+
+# Module Configs
+app: ~
+
+# Core Config
+tv_core:
+	vendor: true
+tv_exceptions:
+	vendor: true
+tv_services:
+	vendor: true
+tv_templating:
+	vendor: true
+tv_orm:
+    vendor: true
+    mysql:
+        user: %tv_orm.user%
+        password: %tv_orm.password%
+        host: %tv_orm.host%
+        database: %tv_orm.database%
+tv_ldap:
+  vendor: true
+  server: %tv_ldap.server%
+	base_dn: %tv_ldap.base_dn%
+	user_dn: %tv_ldap.user_dn%
+  group_dn: %tv_ldap.group_dn%
+	user_rdn: %tv_ldap.user_rdn%
+	type: %tv_ldap.type%
+	username: %tv_ldap.username%
+	password: %tv_ldap.password%
+	me_session_key: %tv_ldap.me_session_key%
+  
+#LOCAL (src/) Packages
+tv_demo: ~

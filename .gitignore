@@ -1,0 +1,29 @@
+#PyC generic#
+*.pyc
+
+# Framework Installer
+src/atom-framework-installer
+
+#Var pieces
+var/sessions/*
+!var/sessions/.gitkeep
+var/logs/*
+!var/logs/.gitkeep
+var/cache/*
+!var/cache/.gitkeep
+
+# Anything in vendor.
+vendor/*
+
+# App / Configurations # 
+app/config/parameters_*.yml
+!app/config/parameters_full.yml
+!app/config/parameters_sample.yml
+
+# Web / Symlinks #
+web/js/*
+!web/js/.gitkeep
+web/css/*
+!web/css/.gitkeep
+web/img/*
+!web/img/.gitkeep

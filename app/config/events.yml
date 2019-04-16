@@ -1,0 +1,4 @@
+#after_kernel: []
+#before_request: []
+#after_request: ["requestListener:after"]
+#before_render: ["beforeListener:beforeRender", "anotherListener:beforeRender"]

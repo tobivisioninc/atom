@@ -1,0 +1,19 @@
+debug: true
+debugLevel: 'info' #warning, info, error, debug
+cookieText: 'This site uses cookies, would you accept?'
+forceSSL: false
+tv_orm:
+    user: "atom_demo"
+    password: "atom_demo"
+    host: "127.0.0.1"
+    database: "atom_demo"
+tv_ldap:
+    server: "127.0.0.1"
+    base_dn: "dc=getatom,dc=xyz"
+    user_dn: "ou=Users"
+    group_dn: "ou=Groups"
+    user_rdn: "cn"
+    type: "OpenLDAP"
+    username: "cn=admin"
+    password: ~
+    me_session_key: "mailuser"

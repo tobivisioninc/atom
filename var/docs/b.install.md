@@ -5,7 +5,7 @@
     IE: $ cd /var/www
 
 ####### Get the Latest Version
-    $ curl https://atom.tobivision.co/downloads/latest -o atom.tar.gz
+    $ curl https://www.getatom.xyz/downloads/latest -o atom.tar.gz
 
 ####### Extract Tar
 

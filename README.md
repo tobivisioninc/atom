@@ -1,5 +1,4 @@
-# atom
-Atom - The True MVC Python Web Framework
+# Atom - The True MVC Python Web Framework
 
 ##### Can run Python2+ but is designed for 3+
 

@@ -1,6 +1,6 @@
 ### Best Practices
 - Local Code should only reside in `src/` folder.
-    - Following this, you should have a parent folder to any code you have. 
+    - Following this, you should have a parent folder to any code you have. So for us that would be src/Atom/[APP_NAME]/(*App Code*)
 
 - Stay out of the core, you can extend the core, or use the event features (`EventListeners`)
 

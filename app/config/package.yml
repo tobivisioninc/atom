@@ -2,11 +2,12 @@ name: "Atom - TVPY"
 version: 1.0.0
 git_check: false
 require: 
-    - [ "tv_core", "http://tobias@git.opcenter.io/scm/pyt/tvpy-core.git", "0.11.1"]
-    - [ "tv_orm", "http://tobias@git.opcenter.io/scm/pyt/tvpy-orm.git", "0.7.0"]
-    - [ "tv_exceptions", "http://tobias@git.opcenter.io/scm/pyt/tvpy-exceptions.git", "0.3.0"]
-    - [ "tv_ldap", "http://tobias@git.opcenter.io/scm/pyt/tvpy-ldap.git", "0.3.0"]
-    - [ "tv_services", "http://tobias@git.opcenter.io/scm/pyt/tvpy-services.git", "0.5.1"]
-    - [ "tv_templating", "http://tobias@git.opcenter.io/scm/pyt/tvpy-templating.git", "0.8.3"]
+    - [ "tv_core", "http://git.opcenter.io/scm/pyt/tvpy-core.git", "0.14.5"]
+    - [ "tv_orm", "http://git.opcenter.io/scm/pyt/tvpy-orm.git", "0.7.4"]
+    - [ "tv_exceptions", "http://git.opcenter.io/scm/pyt/tvpy-exceptions.git", "0.4.0"]
+    - [ "tv_ldap", "http://git.opcenter.io/scm/pyt/tvpy-ldap.git", "0.3.1"]
+    - [ "tv_services", "http://git.opcenter.io/scm/pyt/tvpy-services.git", "0.6.6"]
+    - [ "tv_templating", "http://git.opcenter.io/scm/pyt/tvpy-templating.git", "0.9.3"]
+    - [ "tv_users", "http://git.opcenter.io/scm/pyt/tvpy-users.git", "0.1.7"]
 require_system: 
     - pip

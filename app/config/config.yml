@@ -35,6 +35,9 @@ tv_ldap:
 	username: %tv_ldap.username%
 	password: %tv_ldap.password%
 	me_session_key: %tv_ldap.me_session_key%
+
+tv_users:
+  vendor: true
   
 #LOCAL (src/) Packages
 tv_demo: ~

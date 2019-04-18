@@ -9,7 +9,7 @@ class Tvdemocontroller(Controller):
 	def indexAction(self, args):
 		"""
 		@description("Demo Index")
-		@route("/", "demo_index_get")
+		@route("", "demo_index_get")
 		@method("GET")
 		@template("tv_demo:index")
 		"""

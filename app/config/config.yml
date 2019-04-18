@@ -5,8 +5,6 @@ debugLevel: %debugLevel% #warning, info, error, debug
 cookieText: %cookieText%
 forceSSL: %forceSSL%
 
-# Module Configs
-app: ~
 
 # Core Config
 tv_core:
@@ -41,3 +39,6 @@ tv_users:
   
 #LOCAL (src/) Packages
 tv_demo: ~
+
+# Module Configs
+app: ~

@@ -2,7 +2,7 @@ name: "Atom - TVPY"
 version: 1.0.0
 git_check: false
 require: 
-    - [ "tv_core", "http://git.opcenter.io/scm/pyt/tvpy-core.git", "0.14.5"]
+    - [ "tv_core", "http://git.opcenter.io/scm/pyt/tvpy-core.git", "0.15.0"]
     - [ "tv_orm", "http://git.opcenter.io/scm/pyt/tvpy-orm.git", "0.7.4"]
     - [ "tv_exceptions", "http://git.opcenter.io/scm/pyt/tvpy-exceptions.git", "0.4.0"]
     - [ "tv_ldap", "http://git.opcenter.io/scm/pyt/tvpy-ldap.git", "0.3.1"]
